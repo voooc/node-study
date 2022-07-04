@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voooc/blog-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voooc/blog-server/issues"
+  },
+  "homepage": "https://github.com/voooc/blog-server#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.18"
+  }
+}
